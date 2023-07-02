@@ -2,7 +2,7 @@ package lib01
 
 import (
 	"fmt"
-	_ "golangManabi/05-init/lib02"
+	_ "golang-manabi/05-init/lib02"
 )
 
 // init函数，golang包调用过程中先会执行import包中init函数
