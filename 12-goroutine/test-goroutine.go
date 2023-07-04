@@ -7,6 +7,10 @@ import (
 
 /* goroutine（协程并发） */
 
+func main() {
+	testGoroutine()
+}
+
 func testGoroutine() {
 	// 创建一个goroutine执行newTask
 	// go newTask()

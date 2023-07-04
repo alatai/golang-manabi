@@ -7,6 +7,13 @@ import (
 
 /* 两个goroutine之间的通信——channel */
 
+func main() {
+	testChannel()
+	testChannel02()
+	testChannel03()
+	testChannel04()
+}
+
 func testChannel() {
 	// 定义一个channel
 	channel := make(chan int)
